@@ -2,11 +2,13 @@
 
 
     body {
-        margin: 0%; /* Margem Externa*/
-        padding: 0%; /* Margem interna*/
-        background: linear-gradient (180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%), #303030;
-        background-repeat: no-repeat;
+    margin: 0%; /* Margem Externa*/
+    padding: 0%; /* Margem interna*/
+    height: 2800px;
+    background: linear-gradient(180deg, rgba(4, 64, 143, 0.5) 19.81%, rgba(12, 112, 242, 0) 24.84%), #303030;
+    /*background-repeat: no-repeat;*/
     }
+    
 
 
     /*Menu de navegação principal*/
@@ -20,12 +22,12 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        border-bottom: 1px solid #bababa;
+        border-bottom: 1px solid #757474;
     }
 
     #menu{
         display: flex;
-        width: 45%;
+        width: 52%;
         justify-content: space-around;
         align-items: center;
 
@@ -63,3 +65,12 @@
         color: blue;
 
     } 
+
+    h1{
+        font-size: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #084492;
+        margin: 5%;
+    }
+
+    
