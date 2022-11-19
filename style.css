@@ -290,14 +290,37 @@ footer .linha2 a::hover{
         width: 100%;
         margin: 0px;
     }
-
     section h1{
         font-size: 38px;
     }
-
     section h2{
         font-size: 15px;
+        padding-right: 5px;
+        padding-left: 5px;
     }
+    form{
+        width: 95%;
+        font-size: 20px;
+    }
+    .checkbox-item label{
+        font-size: 15px
+
+    }
+
+
+
+
+    footer .linha1{
+        flex-direction: column;
+    }
+    footer .endereço{
+        width: 95%;
+        margin-bottom: 20px;   
+
+
+    }
+
+
 
 
 }
